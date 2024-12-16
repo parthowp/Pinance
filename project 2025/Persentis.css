@@ -1,0 +1,75 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#yearh {
+  height: 21px;
+  color: aliceblue;
+}
+
+#month {
+  height: 21px;
+  color: aliceblue;
+}
+#dawn {
+  top: 20px;
+  background-color: rgba(1, 1, 218, 0.8);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#display {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+#fffa {
+  width: 50%;
+  min-width: 400px;
+  margin-top: 60px;
+  max-width: 500px;
+}
+#fff {
+  display: flex;
+  flex-direction: column;
+  background-color: blueviolet;
+  align-items: center;
+  border-radius: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+input {
+  margin: 10px;
+  color: black;
+}
+
+#fulll {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 360px;
+
+  z-index: 55;
+  position: relative;
+}
+#fill {
+  color: aliceblue;
+}
+#p {
+  color: aliceblue;
+}
+#pp {
+  height: 30px;
+  width: 30px;
+  background-color: aqua;
+  position: fixed;
+  right: 33px;
+  top: 60%;
+  z-index: 55;
+  display: none;
+}
